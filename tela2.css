@@ -1,0 +1,118 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Regular.ttf);
+}
+
+.screen-2{
+    background-color: rgb(146, 199, 121);
+    width: 414px;
+    height: 800px;
+    border-radius: 55px;    
+    top: 0px;
+    left: 0px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo-pesquisa{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+}
+
+.barraPesquisa{
+    display: flex;
+    margin-top: 15px;
+    opacity: 0.8;
+    margin-left: 50px;
+    font-family: Montserrat-Medium;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tags{
+    flex-direction: row;
+    display: flex;
+    margin-top: 50px;
+    opacity: 0.8;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.tag-cachorro{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag-gato{
+    background-color: rgb(100, 141, 81);
+    opacity: 0.9;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cards{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+}
+
+.card-cao{
+    width: 150px;
+    height: 250px;
+    margin-top: 35px;
+    background-color: white;
+    padding: 2px;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.card-cao, img{
+    position: relative;
+    width: 100px;
+}

@@ -1,0 +1,82 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Regular.ttf);
+}
+
+.first-screen{
+    background-color: rgb(151, 195, 234);
+    width: 414px;
+    height: 800px;
+    border-radius: 55px;    
+    top: 0px;
+    left: 0px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo-home{
+    font-family: Montserrat-Regular;
+    font-size: 35px;
+    color: azure;
+    top: 130px;
+    position: relative;
+    align-items: center;
+}
+
+.txt-home{
+    position: relative;
+    top: 140px;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+}
+
+.imagem img{
+    border-radius: 55px;
+    margin-left: -165px;
+    top: 442px;
+    width: 350px;
+    position: absolute;
+}
+
+.ponto{
+    background-color: rgb(9, 90, 160);
+    left: -50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#ponto2{
+    background-color: white;
+}
+
+.ponto-caixa{
+    align-items: center;
+    justify-content: center;
+    position: relative;    
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
