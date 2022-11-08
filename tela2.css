@@ -32,40 +32,57 @@ body{
     justify-content: center;
 }
 
-.titulo-pesquisa{
+.titulo{
     color:#2C4674;
-    position: relative;
+    display: flex;
     text-align: center;
-    top: 15px;
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Regular;
     font-size: 18px;
+    justify-content: space-between;
 }
 
-.titulo-pesquisa, .voltar{
-    display: inline-flex;
-    width: 50px;
-    left: -80px;
+.pesquisar{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
+
+.voltar{
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.menu{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.lupaTxt{
+    width: 25px;
+    display: flex;
+    margin-left: 10px;
+}
 .barraPesquisa{
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
     opacity: 0.8;
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: Montserrat-Medium;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: whitesmoke;
-    width: 300px;
-    height: 35px;
+    width: 350px;
+    height: 45px;
     border-radius: 50px;
 }
 
 .tags{
     flex-direction: row;
     display: flex;
-    margin-top: 50px;
+    margin-top: 25px;
     opacity: 0.8;
     font-family: Montserrat-Regular;
     font-size: 20px;
@@ -87,6 +104,12 @@ body{
     display: flex;
 }
 
+.dogIcon{
+    width: 25px;
+    display: flex;
+}
+
+
 .tag-gato{
     background-color: #FFFFFF;
     color: #2C4674;
@@ -100,35 +123,41 @@ body{
     display: flex;
 }
 
-.cards{
-    align-items: center;
-    text-align: center;
+.Cat{
+    width: 25px;
     display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    float: left;
-    margin-left: 25px;
-    position: relative;
 }
-
-.card-cao{
+.cards{
+    background-color: #519E8A;
+    border-radius: 30px;
     width: 150px;
-    height: 250px;
-    margin-top: 35px;
-    background-color: white;
-    padding: 2px;
-    font-family: Montserrat-Regular;
-    font-size: 14px;
-    border-radius: 25px;
-    text-align: center;
+    height: 200px;
+    display: inline-flex;
     justify-content: center;
-    align-items: center;
     position: relative;
-    left: 10px;
+    flex-direction: column;
+    padding: 0.2em;
+    margin: .4em;
+    margin-bottom: 2rem;
+    align-items: center;
 }
 
-.card-cao, img{
+.doguinho{
+    width: 120px;
+    height: 120px;
     position: relative;
-    width: 100px;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.card-body{
+    background-color: white;
+    width: 156px;
+    height: 82px;
+    margin-bottom: -40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
 }
 
