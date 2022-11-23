@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0  ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./ptbr/MEDIA/fonts/Montserrat-Regular.ttf);
+}
+
+/*TELA*/
+.screen-4{
+    background-color: #E8DBD4;
+    width: 414px;
+    height: 800px;
+    border-radius: 55px;    
+    top: 50px;
+    left: 0px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/*FUNDO*/
+.fundo-dog{
+    background-color: #D1723F;
+    width: 415px;
+    height: 500px;
+    border-radius: 50px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+/*IMAGEM*/
+.img-cat img{
+    position: absolute;
+    width: 350px;
+    top: 93px;
+    left: 20px;
+}
+
+/*VOLTAR*/
+
+.voltar{
+    position: relative;
+    top: 50px;
+    left: -170px;
+}
+
+/*CAIXINHAS*/
+.caixinhas{
+    width: 80px;
+    height: 80px;
+    background-color: #E8DBD4;
+    position: relative;
+    top: 355px;
+    margin-left: 10px;
+    flex-direction: row;
+    display: inline-flex;
+    opacity: 0.9;
+    border-radius: 15px;
+    justify-content: center;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #2C4674;
+}
+
+.titles-box{
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    color: #2C4674;
+    width: 100px;
+    height: 20px;
+    top: 10px;
+    position: absolute;
+}
+
+.box-txt{
+    position: relative;
+    top: 50px;
+}
+
+/*CARD-BODY*/
+
+/*NOME E RAÇA*/
+.petname{
+    font-size: 24px;
+    font-family: 'Montserrat-Bold';
+    color: #2C4674;
+    position: relative;
+    float: left;
+    left: 35px;
+    top: 20px;
+}
+
+.petbreed{
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+    color: #2C4674;
+    position: relative;
+    float: left;
+    top: 50px;
+    left: -20px;
+}
+
+/*PREÇO/VALOR*/
+.value{
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #2C4674;
+    position: relative;
+    top: 40px;
+    right: -90px;
+}
+
+/*FOTO*/
+.foto{
+    position: relative;
+    float: left;
+    top: 80px;
+    left: -30px;
+}
+
+/*LEGENDA*/
