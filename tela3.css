@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0  ;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -19,8 +21,9 @@ body{
     src: url(./ptbr/MEDIA/fonts/Montserrat-Regular.ttf);
 }
 
-.card{
-    background-color: #CBE0DB;
+/*TELA*/
+.screen-2{
+    background-color: #E8DBD4;
     width: 414px;
     height: 800px;
     border-radius: 55px;    
@@ -32,3 +35,175 @@ body{
     justify-content: center;
 }
 
+/*HEADER*/
+
+.titulo{
+    color:#2C4674;
+    display: flex;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.pesquisar{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.voltar{
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.menu{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.lupaTxt{
+    width: 25px;
+    display: flex;
+    margin-left: 10px;
+}
+.barraPesquisa{
+    display: flex;
+    margin-top: 10px;
+    opacity: 0.8;
+    margin-left: 30px;
+    font-family: Montserrat-Medium;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+/*TAGS*/
+.tags{
+    flex-direction: row;
+    display: flex;
+    margin-top: 25px;
+    opacity: 0.8;
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.tag-cachorro{
+    background-color: #FFFFFF;
+    color: #2C4674;
+    font-size: 18px;
+    font-family: Montserrat-Medium;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag-gato{
+    background-color: #D1723F;
+    color: #FFFFFF;
+    font-family: Montserrat-Medium;
+    opacity: 0.9;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*ICONS*/
+.dogIcon{
+    width: 30px;
+    position: relative;
+    left: -20px;
+}
+
+.icon-home{
+    position: absolute;
+    width: 30px;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    right: 10px;
+}
+
+.catIcon{
+    width: 25px;
+    position: relative;
+    left: -20px;
+}
+
+/*CARDS*/
+
+.cards{
+    display:inline-flexbox;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    align-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-gato{
+display:flexbox;
+width: 150px;
+height: 220px;
+background-color: #D1723F;
+border-radius: 30px;
+margin-bottom: 30px;
+float: right;
+position: relative;
+}
+
+.card-body{
+    background-color: white;
+    width: 150px;
+    height: 80px;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    color: #2C4674;
+}
+
+/*IMAGENS*/
+.doguinho{
+    height: 130px;
+    position: relative;
+    top: 30px;
+}
+
+/*NOME RAÇA*/
+
+.pet-name{
+    font-family: 'Montserrat-Bold', 'sans-serif';
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    margin-top: -15px;
+    
+}
+
+.pet-breed{
+    font-family: 'Montserrat-Medium', 'sans-serif';
+    font-size: 12px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: -70px;
+    
+}

@@ -21,6 +21,7 @@ body{
     src: url(./ptbr/MEDIA/fonts/Montserrat-Regular.ttf);
 }
 
+/*TELA*/
 .screen-2{
     background-color: #CBE0DB;
     width: 414px;
@@ -83,6 +84,7 @@ body{
     border-radius: 50px;
 }
 
+/*TAGS*/
 .tags{
     flex-direction: row;
     display: flex;
@@ -108,12 +110,6 @@ body{
     display: flex;
 }
 
-.dogIcon{
-    width: 25px;
-    display: flex;
-}
-
-
 .tag-gato{
     background-color: #FFFFFF;
     color: #2C4674;
@@ -127,27 +123,40 @@ body{
     display: flex;
 }
 
-.Cat{
+/*ICONS*/
+.dogIcon{
+    width: 30px;
+    position: relative;
+    left: -20px;
+}
+
+.icon-home{
+    position: absolute;
+    width: 30px;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    right: 10px;
+}
+
+.catIcon{
     width: 25px;
-    display: flex;
+    position: relative;
+    left: -20px;
 }
 
 /*CARDS*/
 
 .cards{
-    display: inline-flex;
+    display:inline-flexbox;
     flex-direction: column;
-    position: relative;
     margin-top: 20px;
-    margin-left: -210px;
-    margin-bottom: 10px;
-    align-content:center ;
-}
-
-.doguinho{
-    height: 130px;
-    position: relative;
-    top: 30px;
+    margin-left: 40px;
+    float: left;
+    align-content:center;
+    align-items: center;
+    text-align: center;
 }
 
 .card-cao{
@@ -172,31 +181,29 @@ position: relative;
     color: #2C4674;
 }
 
+/*IMAGENS*/
+.doguinho{
+    height: 130px;
+    position: relative;
+    top: 30px;
+}
+
+/*NOME RAÇA*/
+
 .pet-name{
     font-family: 'Montserrat-Bold', 'sans-serif';
     font-size: 18px;
     position: relative;
-    margin-left: 10px;
+    left: 10px;
     margin-top: -15px;
     
 }
 
-
 .pet-breed{
     font-family: 'Montserrat-Medium', 'sans-serif';
     font-size: 12px;
-    position: relative;
-    margin-top: 30px;
-    margin-left: -75px;
-    
-}
-
-.icon-home{
     display: flex;
-    width: 30px;
-    align-content:center;
-    align-items: center;
-    justify-content: center;
-    margin-left: 45px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: -70px;
+    
 }
