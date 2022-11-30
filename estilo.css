@@ -57,6 +57,7 @@ body{
     position: absolute;
 }
 
+/*pontos*/
 .ponto{
     background-color: rgb(9, 90, 160);
     left: -50px;
@@ -81,6 +82,7 @@ body{
     flex-direction: row;
 }
 
+/*PROXIMA PAG*/
 .proxima-pag{
     top: 450px;
     left: 200px;

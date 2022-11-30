@@ -23,7 +23,7 @@ body{
 
 /*TELA*/
 .screen-4{
-    background-color: #E8DBD4;
+    background-color: #CBE0DB;
     width: 414px;
     height: 800px;
     border-radius: 55px;    
@@ -38,7 +38,7 @@ body{
 
 /*FUNDO*/
 .fundo-dog{
-    background-color: #D1723F;
+    background-color: #519E8A;;
     width: 415px;
     height: 500px;
     border-radius: 50px;
@@ -50,8 +50,8 @@ body{
 /*IMAGEM*/
 .img-cat img{
     position: absolute;
-    width: 350px;
-    top: 93px;
+    width: 400px;
+    top: 30px;
     left: 20px;
 }
 
@@ -134,7 +134,7 @@ body{
     position: relative;
     float: left;
     top: 80px;
-    left: -30px;
+    left: -60px;
 }
 
 /*LEGENDA FOTO*/
@@ -144,7 +144,7 @@ font-size: 16px;
 color: #2C4674;
 position: relative;
 top: 100px;
-right: 100px;
+right: 120px;
 }
 
 .local{
@@ -161,7 +161,7 @@ right: 100px;
 font-family: 'Montserrat-Medium';
 font-size: 18px;
 color: #FFFFFF;
-background-color: #D1723F;
+background-color: #519E8A;;
 width: 300px;
 height: 50px;
 display: flex;

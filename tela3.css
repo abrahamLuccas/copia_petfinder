@@ -182,13 +182,31 @@ position: relative;
 }
 
 /*IMAGENS*/
-.doguinho{
+.gatinho{
     height: 130px;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
-/*NOME RAÇA*/
+.ariana{
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+.zoe{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.alex{
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+
+/*NOME e RAÇA*/
 
 .pet-name{
     font-family: 'Montserrat-Bold', 'sans-serif';
